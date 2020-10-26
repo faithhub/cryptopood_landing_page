@@ -27,8 +27,10 @@
                 <div class="row">
                     <div class="col-xl-12">
                         <nav class="navbar navbar-expand-lg navbar-light px-0">
-                            <a class="navbar-brand" href="index-2.html"><img src="images/w_logo.png" alt="">
-                                <span>CryptoPood</span></a>
+                            <a class="navbar-brand" href="index-2.html">
+                                <img src="logos/Asset 3.svg" alt="" style="min-width: 150px; height: auto;">
+                                <!-- <span>CryptoPood</span> -->
+                            </a>
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
                             </button>
@@ -66,7 +68,7 @@
         <div class="intro section-padding position-relative" id="intro" data-scroll-index="0">
             <div class="container">
                 <div class="row align-items-center justify-content-between">
-                    <div class="col-xl-7 col-md-7">
+                    <div class="col-xl-7 col-md-6">
                         <div class="intro-content">
                             <h2>Cryptocurrency at the best rate </h2>
                             <p style="text-align: justify;">CryptoPood is the best, Fastest and secure place to buy and Sell cryptocurrencies at affordable rate with no unnecessarry charges</p>
@@ -74,281 +76,343 @@
                         </div>
 
                     </div>
-                    <div class="col-xl-4 col-md-4 py-md-5">
-                        <div class="card">
-                            <div>
-                                <!-- <script src="../cdn.jsdelivr.net/gh/coinponent/coinponent%401.2.6/dist/coinponent.js"></script>
-                                <coin-ponent></coin-ponent> -->
+                    <div class="col-xl-5 col-lg-5 col-md-5">
+                        <!-- <div class="card-header">
+                            Crypto Market Price
+                        </div> -->
+                        <div class="card p-3">
+                            <ul class="nav nav-tabs">
+                                <li class="crypto-menu"><a class="active" aria-controls="bitcoin" aria-selected="true" data-toggle="tab" href="#bitcoin">BitCoin</a></li>
+                                <li class="crypto-menu"><a data-toggle="tab" href="#eth">Etheruem</a></li>
+                                <li class="crypto-menu"><a data-toggle="tab" href="#ltc">Litecoin</a></li>
+                                <li class="crypto-menu"><a data-toggle="tab" href="#bch">Bitcoin Cash</a></li>
+                                <!-- <li class="crypto-menu"><a data-toggle="tab" href="#menu1"></a></li> -->
+                            </ul>
+
+                            <div class="tab-content">
+                                <div id="bitcoin" class="tab-pane fade show active">
+                                    <div class="text-center mt-2">
+                                        <h3>Bitcoin Market Price</h3>
+                                        <div class="col-lg-8 offset-lg-2 col-md-12 col-sm-12 col-xm-12 col-xl-10 offset-xl-1">
+                                            <div class="text-center justify-content-center" style="align-items: center;">
+                                                <script defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script>
+                                                <div class="livecoinwatch-widget-1" lcw-coin="BTC" lcw-base="USD" lcw-secondary="BTC" lcw-period="d" lcw-color-tx="#000000" lcw-color-pr="#FCB900" lcw-color-bg="#ffffff" lcw-border-w="0" lcw-digits="7"></div>
+                                            </div>
+                                        </div>
+                                        <script defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script>
+                                        <div class="livecoinwatch-widget-5" lcw-base="USD" lcw-color-tx="#000000" lcw-marquee-1="coins" lcw-marquee-2="movers" lcw-marquee-items="10"></div>
+                                    </div>
+                                </div>
+                                <div id="eth" class="tab-pane fade">
+                                    <div class="text-center mt-2">
+                                        <h3>Ethereum Market Price</h3>
+                                        <div class="col-lg-8 offset-lg-2 col-md-12 col-sm-12 col-xm-12 col-xl-10 offset-xl-1">
+                                            <div class="text-center justify-content-center" style="align-items: center;">
+                                                <script defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script>
+                                                <div class="livecoinwatch-widget-1" lcw-coin="ETH" lcw-base="USD" lcw-secondary="ETH" lcw-period="d" lcw-color-tx="#000000" lcw-color-pr="#FCB900" lcw-color-bg="#ffffff" lcw-border-w="0" lcw-digits="7"></div>
+                                            </div>
+                                        </div>
+                                        <script defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script>
+                                        <div class="livecoinwatch-widget-5" lcw-base="USD" lcw-color-tx="#000000" lcw-marquee-1="coins" lcw-marquee-2="movers" lcw-marquee-items="10"></div>
+                                    </div>
+                                </div>
+                                <div id="ltc" class="tab-pane fade">
+                                    <div class="text-center mt-2">
+                                        <h3>Litcoin Market Price</h3>
+                                        <div class="col-lg-8 offset-lg-2 col-md-12 col-sm-12 col-xm-12 col-xl-10 offset-xl-1">
+                                            <div class="text-center justify-content-center" style="align-items: center;">
+                                                <script defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script>
+                                                <div class="livecoinwatch-widget-1" lcw-coin="LTC" lcw-base="USD" lcw-secondary="LTC" lcw-period="d" lcw-color-tx="#000000" lcw-color-pr="#FCB900" lcw-color-bg="#ffffff" lcw-border-w="0" lcw-digits="7"></div>
+                                            </div>
+                                        </div>
+                                        <script defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script>
+                                        <div class="livecoinwatch-widget-5" lcw-base="USD" lcw-color-tx="#000000" lcw-marquee-1="coins" lcw-marquee-2="movers" lcw-marquee-items="10"></div>
+                                    </div>
+                                </div>
+                                <div id="bch" class="tab-pane fade">
+                                    <div class="text-center mt-2">
+                                        <h3>Bitcoin Cash Market Price</h3>
+                                        <div class="col-lg-8 offset-lg-2 col-md-12 col-sm-12 col-xm-12 col-xl-10 offset-xl-1">
+                                            <div class="text-center justify-content-center" style="align-items: center;">
+                                                <script defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script>
+                                                <div class="livecoinwatch-widget-1" lcw-coin="BCH" lcw-base="USD" lcw-secondary="BCH" lcw-period="d" lcw-color-tx="#000000" lcw-color-pr="#FCB900" lcw-color-bg="#ffffff" lcw-border-w="0" lcw-digits="7"></div>
+                                            </div>
+                                        </div>
+                                        <script defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script>
+                                        <div class="livecoinwatch-widget-5" lcw-base="USD" lcw-color-tx="#000000" lcw-marquee-1="coins" lcw-marquee-2="movers" lcw-marquee-items="10"></div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- <script src="../widgets.coingecko.com/coingecko-coin-price-marquee-widget.js"></script>
+    </div>
+    <!-- <script src="../widgets.coingecko.com/coingecko-coin-price-marquee-widget.js"></script>
         <coingecko-coin-price-marquee-widget coin-ids="bitcoin,eos,ethereum,litecoin,ripple,stellar,dash" currency="usd" background-color="#ffffff" locale="en"></coingecko-coin-price-marquee-widget> -->
-        <div class="">
-            <div class="container">
-                <div class="row py-lg-3 justify-content-center" data-scroll-index="1">
-                    <div class="col-xl-12">
-                        <div class="section_heading">
-                            <span>Get Started</span>
-                            <h3>Get Started In Three Easy Steps</h3>
-                            <p>Buy and Sell Bitcoin, ETH, and hundreds of other cryptocurrencies in minutes.</p>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-8 col-sm-12">
-                                <iframe width="900" class="col-12" height="480" src="https://www.youtube.com/embed/0gNPmLljJ1k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                <!-- <video controls autoplay="true" class="col-12">
+    <div class="">
+        <div class="container">
+            <div class="row py-lg-3 justify-content-center" data-scroll-index="1">
+                <div class="col-xl-12">
+                    <div class="section_heading">
+                        <span>Get Started</span>
+                        <h3>Get Started In Three Easy Steps</h3>
+                        <p>Buy and Sell Bitcoin, ETH, and hundreds of other cryptocurrencies in minutes.</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8 col-sm-12">
+                            <iframe width="900" class="col-12" height="480" src="https://www.youtube.com/embed/0gNPmLljJ1k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <!-- <video controls autoplay="true" class="col-12">
                                     <source src="video/buy.mp4" type="video/mp4">
                                 </video> -->
-                            </div>
-                            <div class="col-md-4 col-sm-12 text">
-                                <div class="row">
-                                    <div class="col-12 py-3">
-                                        <h2 style="color:black;"><img src="images/mark.png" style="width: 50px;">Sign Up</h2>
-                                        <p>The security Model that Processes CryptoPoods platform has protected client funds for the past years without incident</p>
-                                    </div>
-                                    <div class="col-12">
-                                        <h2 style="color:black;"><img src="images/mark.png" style="width: 50px;">Verify Account</h2>
-                                        <p>The security Model that Processes CryptoPoods platform has protected client funds for the past years without incident</p>
-                                    </div>
-                                    <div class="col-12">
-                                        <h2 style="color:black;"><img src="images/mark.png" style="width: 50px;">Buy & Sell</h2>
-                                        <p>The security Model that Processes CryptoPoods platform has protected client funds for the past years without incident</p>
-                                    </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12 text">
+                            <div class="row">
+                                <div class="col-12 py-3">
+                                    <h2 style="color:black;"><img src="images/mark.png" style="width: 50px;">Sign Up</h2>
+                                    <p>The security Model that Processes CryptoPoods platform has protected client funds for the past years without incident</p>
+                                </div>
+                                <div class="col-12">
+                                    <h2 style="color:black;"><img src="images/mark.png" style="width: 50px;">Verify Account</h2>
+                                    <p>The security Model that Processes CryptoPoods platform has protected client funds for the past years without incident</p>
+                                </div>
+                                <div class="col-12">
+                                    <h2 style="color:black;"><img src="images/mark.png" style="width: 50px;">Buy & Sell</h2>
+                                    <p>The security Model that Processes CryptoPoods platform has protected client funds for the past years without incident</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="features section-padding">
-                    <div class="container">
-                        <div class="row py-lg-5 justify-content-center">
-                            <div class="col-xl-6">
-                                <div class="section_heading">
-                                    <span>Why Us</span>
-                                    <h3>Why Choose CryptoPood?</h3>
-                                    <p>Here are a few reasons why you should choose CryptoPood</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="features-content">
-                                    <span><i class="fa fa-shield"></i></span>
-                                    <h4>Secured System</h4>
-                                    <p class="text-justify">The security Model that Processes CryptoPoods platform has protected client funds for the past years without incident. For users who value an enhanced layer of comfort or need to meet compliance, we offer custody and
-                                        insurance solutions.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="features-content">
-                                    <span><i class="fa fa-cubes"></i></span>
-                                    <h4>Best Price</h4>
-                                    <p class="text-justify">CryptoPood’s trading platform Was developed for the beginner and built for the expert. CryptoPood’s matching engine supports FIX and REST API integration. Access institutional low latency connectivity provided through
-                                        our collocation services hosted in Tier 8 data centres Globally.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="features-content">
-                                    <span><i class="fa fa-life-ring"></i></span>
-                                    <h4>Efficient</h4>
-                                    <p class="text-justify">With fees as low as 0% and best in class spreads, CryptoPood makes trading digital assets easy. Our simple and intuitive user interface combined with mobile app grants you the power to stay connected to the market.
-                                    </p>
-                                </div>
+            </div>
+            <div class="features section-padding">
+                <div class="container">
+                    <div class="row py-lg-5 justify-content-center">
+                        <div class="col-xl-6">
+                            <div class="section_heading">
+                                <span>Why Us</span>
+                                <h3>Why Choose CryptoPood?</h3>
+                                <p>Here are a few reasons why you should choose CryptoPood</p>
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="portfolio section-padding" data-scroll-index="2">
-                    <div class="container">
-                        <div class="row py-lg-3 justify-content-center">
-                            <div class="col-xl-6">
-                                <div class="section_heading">
-                                    <span>Join Us</span>
-                                    <h3>Create your CryptoPood Account today</h3>
-                                    <p>CryptoPood has a variety of Options that enables you to Buy and sell Easily</p>
-                                </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="features-content">
+                                <span><i class="fa fa-shield"></i></span>
+                                <h4>Secured System</h4>
+                                <p class="text-justify">The security Model that Processes CryptoPoods platform has protected client funds for the past years without incident. For users who value an enhanced layer of comfort or need to meet compliance, we offer custody and insurance
+                                    solutions.
+                                </p>
                             </div>
                         </div>
-                        <div class="row align-items-center">
-                            <div class="col-xl-5 col-md-6">
-                                <div class="portfolio_list">
-                                    <div class="media">
-                                        <span class="port-icon"> <i class="la la-bar-chart"></i></span>
-                                        <div class="media-body">
-                                            <h4>Manage your portfolio</h4>
-                                            <p>Buy and sell popular digital currencies, keep track of them in the one place.</p>
-                                        </div>
-                                    </div>
-                                    <div class="media">
-                                        <span class="port-icon"> <i class="la la-calendar-check-o"></i></span>
-                                        <div class="media-body">
-                                            <h4>Manage Transactions</h4>
-                                            <p>Manage your Transactions in one place, View Transactiona within Your Account
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="media">
-                                        <span class="port-icon"> <i class="la la-lock"></i></span>
-                                        <div class="media-body">
-                                            <h4>Easy Deposits</h4>
-                                            <p>Deposit Funds Easily from Various Deposit Methods Which Enables funds to Be Processed Safely in A Vault
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="media">
-                                        <span class="port-icon"> <i class="la la-android"></i></span>
-                                        <div class="media-body">
-                                            <h4>Mobile apps</h4>
-                                            <p>Stay on top of the markets with the CryptoPood App (Coming Soon) <a href="#">Android</a> or
-                                                <a href="#">iOS</a>.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-7 col-md-6">
-                                <div class="portfolio_img">
-                                    <img src="images/portfolio.png" alt="" class="img-fluid">
-                                </div>
+                        <div class="col-md-4">
+                            <div class="features-content">
+                                <span><i class="fa fa-cubes"></i></span>
+                                <h4>Best Price</h4>
+                                <p class="text-justify">CryptoPood’s trading platform Was developed for the beginner and built for the expert. CryptoPood’s matching engine supports FIX and REST API integration. Access institutional low latency connectivity provided through our
+                                    collocation services hosted in Tier 8 data centres Globally.
+                                </p>
                             </div>
                         </div>
-                    </div>
-                </div>
-
-
-
-                <div class="contact-form section-padding" data-scroll-index="4">
-                    <div class="container">
-                        <div class="row py-lg-5 justify-content-center">
-                            <div class="col-xl-6">
-                                <div class="section_heading">
-                                    <span>Ask Question</span>
-                                    <h3>Let us hear from you directly!</h3>
-                                </div>
+                        <div class="col-md-4">
+                            <div class="features-content">
+                                <span><i class="fa fa-life-ring"></i></span>
+                                <h4>Efficient</h4>
+                                <p class="text-justify">With fees as low as 0% and best in class spreads, CryptoPood makes trading digital assets easy. Our simple and intuitive user interface combined with mobile app grants you the power to stay connected to the market.
+                                </p>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-xl-4 col-md-4 col-sm-4">
-                                <div class="info-list">
-                                    <h4 class="mb-3">Address</h4>
-                                    <ul>
-                                        <li><i class="fa fa-map-marker"></i> 99 Creek Street, Brisbane QLD Australia 4001</li>
-                                        <li><i class="fa fa-phone"></i> (+123) 1243 665566</li>
-                                        <li><i class="fa fa-envelope"></i> Support@CryptoPood.com</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-xl-8 col-md-8 col-sm-8">
-                                <form method="post" name="myform" class="contact_validate">
-                                    <div class="row">
-                                        <div class="col-12 col-md-6">
-                                            <div class="form-group">
-                                                <label for="contactName">
-                                            Full name
-                                        </label>
-                                                <input type="text" class="form-control" id="contactName" placeholder="Full name" name="firstname">
-                                            </div>
-                                        </div>
-                                        <div class="col-12 col-md-6">
-                                            <div class="form-group">
-                                                <label for="contactEmail">
-                                            Email
-                                        </label>
-                                                <input type="email" class="form-control" name="email" placeholder="hello@domain.com">
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-12">
-                                            <div class="form-group">
-                                                <textarea class="form-control p-3" name="message" rows="5" placeholder="Tell us what we can help you with!"></textarea>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <button type="submit" class="btn btn-primary px-4">
-                                Send message
-                            </button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-
-                <div class="cookie_alert">
-
-                    <div class="alert alert-light fade show">
-                        <i class="la la-close" data-dismiss="alert"></i>
-                        <p>
-                            We use cookies to enhance your experience. By using CryptoPood, you agree to our <a href="#">Terms of
-                                                    Use</a> and <a href="#">Privacy
-                                                    Policy</a>
-                        </p>
-                        <button class="btn btn-success btn-block" data-dismiss="alert">Accept</button>
                     </div>
                 </div>
             </div>
 
-            <div class="footer">
+            <div class="portfolio section-padding" data-scroll-index="2">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-xl-6 col-md-6">
-                            <div class="footer-link text-left">
-                                <a href="#" class="m_logo">
-                                    <img src="images/w_logo.png" alt="">
-                                    <!-- <h2>CrptoPood</h2> -->
-                                </a>
-                                <a href="about.html">About</a>
-                                <a href="privacy-policy.html">Privacy Policy</a>
-                                <a href="term-condition.html">Term & Service</a>
-                            </div>
-                        </div>
-                        <div class="col-xl-6 col-md-6 text-lg-right text-center">
-                            <div class="social">
-                                <a href="#"><i class="fa fa-youtube-play"></i></a>
-                                <a href="#"><i class="fa fa-instagram"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-facebook"></i></a>
+                    <div class="row py-lg-3 justify-content-center">
+                        <div class="col-xl-6">
+                            <div class="section_heading">
+                                <span>Join Us</span>
+                                <h3>Create your CryptoPood Account today</h3>
+                                <p>CryptoPood has a variety of Options that enables you to Buy and sell Easily</p>
                             </div>
                         </div>
                     </div>
                     <div class="row align-items-center">
-                        <div class="col-xl-12 text-center text-lg-right">
-                            <div class="copy_right text-center text-lg-center">
-                                Copyright © 2020 CryptoPood. All Rights Reserved.
+                        <div class="col-xl-5 col-md-6">
+                            <div class="portfolio_list">
+                                <div class="media">
+                                    <span class="port-icon"> <i class="la la-bar-chart"></i></span>
+                                    <div class="media-body">
+                                        <h4>Manage your portfolio</h4>
+                                        <p>Buy and sell popular digital currencies, keep track of them in the one place.</p>
+                                    </div>
+                                </div>
+                                <div class="media">
+                                    <span class="port-icon"> <i class="la la-calendar-check-o"></i></span>
+                                    <div class="media-body">
+                                        <h4>Manage Transactions</h4>
+                                        <p>Manage your Transactions in one place, View Transactiona within Your Account
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="media">
+                                    <span class="port-icon"> <i class="la la-lock"></i></span>
+                                    <div class="media-body">
+                                        <h4>Easy Deposits</h4>
+                                        <p>Deposit Funds Easily from Various Deposit Methods Which Enables funds to Be Processed Safely in A Vault
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="media">
+                                    <span class="port-icon"> <i class="la la-android"></i></span>
+                                    <div class="media-body">
+                                        <h4>Mobile apps</h4>
+                                        <p>Stay on top of the markets with the CryptoPood App (Coming Soon) <a href="#">Android</a> or
+                                            <a href="#">iOS</a>.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-7 col-md-6">
+                            <div class="portfolio_img">
+                                <img src="images/portfolio.png" alt="" class="img-fluid">
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- <div class="bg_icons"></div> -->
+
+
+            <div class="contact-form section-padding" data-scroll-index="4">
+                <div class="container">
+                    <div class="row py-lg-5 justify-content-center">
+                        <div class="col-xl-6">
+                            <div class="section_heading">
+                                <span>Ask Question</span>
+                                <h3>Let us hear from you directly!</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-4 col-md-4 col-sm-4">
+                            <div class="info-list">
+                                <h4 class="mb-3">Address</h4>
+                                <ul>
+                                    <li><i class="fa fa-map-marker"></i> 99 Creek Street, Brisbane QLD Australia 4001</li>
+                                    <li><i class="fa fa-phone"></i> (+123) 1243 665566</li>
+                                    <li><i class="fa fa-envelope"></i> Support@CryptoPood.com</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-8 col-md-8 col-sm-8">
+                            <form method="post" name="myform" class="contact_validate">
+                                <div class="row">
+                                    <div class="col-12 col-md-6">
+                                        <div class="form-group">
+                                            <label for="contactName">
+                                            Full name
+                                        </label>
+                                            <input type="text" class="form-control" id="contactName" placeholder="Full name" name="firstname">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <div class="form-group">
+                                            <label for="contactEmail">
+                                            Email
+                                        </label>
+                                            <input type="email" class="form-control" name="email" placeholder="hello@domain.com">
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="form-group">
+                                            <textarea class="form-control p-3" name="message" rows="5" placeholder="Tell us what we can help you with!"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn btn-primary px-4">
+                                Send message
+                            </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
 
 
-            <script src="vendor/jquery/jquery.min.js"></script>
-            <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-            <script src="vendor/waves/waves.min.js"></script>
+            <div class="cookie_alert">
 
-            <script src="vendor/owlcarousel/js/owl.carousel.min.js"></script>
-            <script src="js/plugins/owl-carousel-init.js"></script>
-            <script src="vendor/scrollit/scrollIt.js"></script>
-            <script src="js/plugins/scrollit-init.js"></script>
+                <div class="alert alert-light fade show">
+                    <i class="la la-close" data-dismiss="alert"></i>
+                    <p>
+                        We use cookies to enhance your experience. By using CryptoPood, you agree to our <a href="#">Terms of
+                                                    Use</a> and <a href="#">Privacy
+                                                    Policy</a>
+                    </p>
+                    <button class="btn btn-success btn-block" data-dismiss="alert">Accept</button>
+                </div>
+            </div>
+        </div>
 
-            <!-- Chart sparkline plugin files -->
-            <script src="vendor/jquery-sparkline/jquery.sparkline.min.js"></script>
-            <script src="js/plugins/sparkline-init.js"></script>
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-md-6">
+                        <div class="footer-link text-left">
+                            <a href="#" class="m_logo">
+                                <img src="images/w_logo.png" alt="">
+                                <!-- <h2>CrptoPood</h2> -->
+                            </a>
+                            <a href="about.html">About</a>
+                            <a href="privacy-policy.html">Privacy Policy</a>
+                            <a href="term-condition.html">Term & Service</a>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-md-6 text-lg-right text-center">
+                        <div class="social">
+                            <a href="#"><i class="fa fa-youtube-play"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-xl-12 text-center text-lg-right">
+                        <div class="copy_right text-center text-lg-center">
+                            Copyright © 2020 CryptoPood. All Rights Reserved.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-            <script src="vendor/validator/jquery.validate.js"></script>
-            <script src="vendor/validator/validator-init.js"></script>
-            <script src="js/scripts.js"></script>
+        <!-- <div class="bg_icons"></div> -->
+
+
+
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="vendor/waves/waves.min.js"></script>
+
+        <script src="vendor/owlcarousel/js/owl.carousel.min.js"></script>
+        <script src="js/plugins/owl-carousel-init.js"></script>
+        <script src="vendor/scrollit/scrollIt.js"></script>
+        <script src="js/plugins/scrollit-init.js"></script>
+
+        <!-- Chart sparkline plugin files -->
+        <script src="vendor/jquery-sparkline/jquery.sparkline.min.js"></script>
+        <script src="js/plugins/sparkline-init.js"></script>
+
+        <script src="vendor/validator/jquery.validate.js"></script>
+        <script src="vendor/validator/validator-init.js"></script>
+        <script src="js/scripts.js"></script>
 </body>
 <!--
 <script type="text/javascript">
